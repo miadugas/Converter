@@ -34,4 +34,59 @@ body {
 .nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.user {
+    font-size: 20px;
+}
+
+#unit-converter {
+    border: none;
+    background: none;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+#unit-converter option {
+    margin: 40px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+#main-unit {
+    border: none;
+    background: none;
+    border-bottom: 1px solid#fff;
+    color: #fff;
+    font-size: 40px;
+    width: 160px;
+}
+
+#second-unit {
+    border: none;
+    background: none;
+    border-bottom: 1px solid#f54c4a;
+    color: #f54c4a;
+    font-size: 40px;
+    width: 160px;
+
+}
+
+#main-unit-options {
+    border: none;
+    background: none;
+    color: #fff;
+}
+
+#main-unit-options option {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.bottom {
+    background-color: #fff;
+    padding: 80px 15px;
 }
