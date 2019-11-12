@@ -2,4 +2,4 @@
 
 Tempature Converter App
 
-*will add more conversions once built out
+*will add more unit conversions once built out
