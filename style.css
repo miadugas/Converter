@@ -86,6 +86,16 @@ body {
     background: rgba(0, 0, 0, 0.3);
 }
 
+#second-unit-options {
+    border: none;
+    background: none;
+    color: #f54c4a;
+}
+
+#second-unit-options option {
+    background: rgba(0, 0, 0, 0.3);
+}
+
 .bottom {
     background-color: #fff;
     padding: 80px 15px;
