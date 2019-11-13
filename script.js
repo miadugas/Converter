@@ -87,6 +87,7 @@ Array.from(document.querySelectorAll(".reset")).forEach( select => {
         document.getElementById("main-unit").value= "";
         document.getElementById("second-unit").value= "";
     })
+    
 
 });
 
