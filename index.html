@@ -29,17 +29,16 @@
             </div>
             <ion-icon name="sunny"></ion-icon>
             <select name="" id="unit-converter">
-                    
                 <option>Temperature</option>
-                <option>Currency</option>
-                <option>Length</option>
+                <!-- <option>Currency</option>
+                <option>Length</option> -->
             <!-- <option>Whatever I want</option>
                 <option>Whatever I want</option>
                 <option>Whatever I want</option> -->
             </select>
             <div class="primary">
                 <input type="number" id="main-unit">
-                <select name="" class="main-unit-options">
+                <select name="" class="main-unit-options reset">
                     <option>Celsius</option>
                     <option>Kelvin</option>
                     <option>Fahrenheit</option>
@@ -49,9 +48,9 @@
 <div class="bottom">
     <div class="secondary">
         <input type="number" id="second-unit">
-        <select class="second-unit-options">
-            <option>Kelvin</option>
+        <select class="second-unit-options reset">
             <option>Fahrenheit</option>
+            <option>Kelvin</option>
             <option>Celsius</option>
         </select>
     </div>
@@ -66,5 +65,6 @@
 
     <!-- IonIcons script link -->
     <script src="https://unpkg.com/ionicons@4.2.2/dist/ionicons.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
