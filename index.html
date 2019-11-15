@@ -1,69 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<html>
 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Converter App | Temperature</title>
 <!-- IonIcons CDN-->
     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"/>
+    
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
 
-<!-- google fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900">
+<!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
-    <title>Converter App | Temperature</title>
-<!-- CSS source file -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- my CSS source file -->
+    <link rel="stylesheet" href="./assets/bootstrap/css/style.css">
 
 <!-- Favicons -->
-        <link rel="shortcut icon" href="./assets/images/favicon.ico" >
+    <link rel="shortcut icon" href="./assets/img/MD-32x32.png" >
 
 </head>
-<body>
-<div class="container">
-    <div class="card">
-        <div class="top">
-            <div class="nav">
-                <p class="date">November</p>
-                <ion-icon name="person" class="user"></ion-icon>
-            </div>
 
-            <ion-icon name="sunny"></ion-icon>
-            <select name="" id="unit-converter">
-                <option>Temperature</option>
-            <!--<option>Currency</option>
-                <option>Length</option> -->
-            <!--<option>Whatever</option>
-                <option>Whatever</option>
-                <option>Whatever</option> -->
-            </select>
-            <div class="primary">
-                <input type="number" id="main-unit">
-                <select name="" class="main-unit-options reset">
-                    <option>Celsius</option>
-                    <option>Kelvin</option>
-                    <option>Fahrenheit</option>
-                </select>
+<body id="page-top">
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top">Temperature Converter</a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler float-right" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="nav navbar-nav ml-auto">
+                    <!-- <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#features">Features</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li> -->
+                </ul>
             </div>
         </div>
-
-<div class="bottom">
-    <div class="secondary">
-        <input type="number" id="second-unit">
-        <select class="second-unit-options reset">
-            <option>Fahrenheit</option>
-            <option>Kelvin</option>
-            <option>Celsius</option>
-        </select>
+    </nav>
+<header class="masthead" style="background:url('assets/img/bg-pattern.png'), linear-gradient(to left, #7b4397, #dc2430);height:100%;">
+                <div class="container">
+            <div class="card">
+        <div class="top">
+    <div class="nav">
+            <p class="date">November</p>
+        <ion-icon name="person" class="user"></ion-icon>
     </div>
-</div>
-
-</div>
-</div>
-
-
-    <!-- IonIcons script link -->
+                            
+                <ion-icon name="sunny"></ion-icon>
+                    <select name="" id="unit-converter">
+                        <option>Temperature</option>
+                                        <!--<option>Currency</option>
+                                            <option>Length</option> -->
+                                        <!--<option>Whatever</option>
+                                            <option>Whatever</option>
+                                            <option>Whatever</option> -->
+                                </select>
+                            <div class="primary">
+                        <input type="number" id="main-unit">
+                            <select name="" class="main-unit-options reset">
+                                <option>Celsius</option>
+                                <option>Kelvin</option>
+                                <option>Fahrenheit</option>
+                            </select>
+                        </div>
+                    </div>
+                <div class="bottom">
+            <div class="secondary">
+                <input type="number" id="second-unit">
+                    <select class="second-unit-options reset">
+                        <option>Fahrenheit</option>
+                        <option>Kelvin</option>
+                        <option>Celsius</option>
+                    </select>
+                </div>
+            </div>                
+        </div>
+    </div>
+</header>
+<section id="contact" class="contact bg-primary">
+    <div class="social">
+        <a href="https://github.com/miadugas"><i class="fa fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/miadugas/"><i class="fa fa-linkedin"></i></a>
+        <a href="https://twitter.com/miainbatcountry"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com/miaelysedugas"><i class="fa fa-facebook"></i></a>
+    </div>
+</section>
+    <footer>
+        <div class="container">
+                <ul class="copyright">
+                        <li>&copy; Copyright 2019 Mia Dugas. Some Rights Reserved. Made with <i class="fa fa-xs fa-heart" style="color:red "></i></li>
+                    </ul>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<!-- IonIcons script link -->
     <script src="https://unpkg.com/ionicons@4.2.2/dist/ionicons.js"></script>
-    <script src="./script.js"></script>
+    <script src="./assets/js/script.js"></script>
+
 </body>
+
 </html>
