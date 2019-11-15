@@ -1,6 +1,7 @@
 # Converter
 
-Tempature Converter App-
+Tempature Converter App- The user interface is in HTML5, styling in CSS3, framework is Bootstrap 4 and game functionality is with JavaScript.
+
 -Fahrenheit, Celsius and Kelvin conversion
 
 * will add more unit conversions once built out
